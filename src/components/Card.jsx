@@ -7,7 +7,7 @@ import idea from "../assets/idea.png";
 const Card = () => {
   return (
     <>
-      <div className=" relative h-auto grid-flow-row w-auto flex flex-col">
+      <div className="relative h-auto grid-flow-row w-auto flex flex-col">
         <div className="relative  opacity-100 z-20 grid items-center text-center justify-items-center ">
           <h2 className="text-6xl head lg:text-5xl md:text-4xl sm:text-3xl xsm:text-2xl   filter drop-shadow-sm mt-9 text-slate-400">
             Reliable, efficient delivery
