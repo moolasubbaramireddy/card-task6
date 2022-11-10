@@ -7,18 +7,55 @@
     
     .res{
         display: block;
+
     }
     .cal{
         margin-top:15px;
        }
-    
+    h1{
+        /* font-weight: bolder; */
+        font-size:1.7rem;
+    }
 
 }
+@media only screen and (max-width: 577px){
+
+    .head{
+        font-size: 30px;
+    }
+   
+    
+}
+@media only screen and (max-width:770px)and (min-width:378px){
+    .width{
+        
+         width:65%;
+         margin-left: 5px;
+         margin-right: 5px;
+         flex-direction: column-reverse
+     } 
+}
+
+@media only screen and (max-width:490px)and (min-width:300px){
+    .width{
+        
+         width:85%;
+         margin-left: 5px;
+         margin-right: 5px;
+         flex-direction: column-reverse
+     } 
+}
+
+
 
 @media only screen and (min-width: 750px){
    .min{
-    justify-content: center;
-    margin: 10px;
+    
+    margin-left: 15px;
+    margin-right: 15PX;
+   }
+   .width{
+    width:41.666667% ;
    }
    
 } 
